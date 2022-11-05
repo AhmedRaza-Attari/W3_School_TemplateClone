@@ -206,7 +206,8 @@ p.small-font {
 }
 
 .team h1,
-.work h1 {
+.work h1,
+.contact h1 {
     text-align: center;
     margin-bottom: 22px;
 }
@@ -322,7 +323,6 @@ p.small-font {
 .our-skills .skills-text,
 .our-skills .bars {
     width: 50%;
-    border: 1px solid black;
     padding: 50px 30px;
 }
 
@@ -333,7 +333,6 @@ p.small-font {
 .our-skills .bars .bar {
     width: 100%;
     height: 30px;
-    background: -webkit-linear-gradient(left, #616161 90%, #9E9E9E 10%);
     margin: 18px 0px;
 }
 
@@ -343,6 +342,110 @@ p.small-font {
 .our-skills .bars .bar2 {
     background: -webkit-linear-gradient(left, #616161 85%, #9E9E9E 15%);
 }
-.our-skills .bars .bar2 {
+.our-skills .bars .bar3 {
     background: -webkit-linear-gradient(left, #616161 75%, #9E9E9E 25%);
+}
+
+/* 7 - Pricing */
+
+.pricing {
+    background-color: #616161;
+    color: #fff;
+    padding-bottom: 130px;
+}
+
+.pricing h2 {
+    padding-top: 130px;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 22px;
+}
+
+.pricing .p-tag {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.pricing .pricing-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px 22px;
+}
+
+.pricing .pricing-cards .pricing-card {
+    background-color: #fff;
+    color: #000;
+    width: 32%;
+    text-align: center;
+}
+
+.pricing .pricing-cards .pricing-card .top {
+    background-color: #000;
+    color: #fff;
+    padding: 35px 0px;
+    font-size: 23px;
+}
+
+.pricing .pricing-cards .pricing-card div {
+    border-bottom: 1px solid lightgrey;
+    padding: 18px 0px;
+}
+
+.pricing .pricing-cards .pricing-card .price b {
+    font-size: 30px;
+}
+
+.pricing .pricing-cards .pricing-card .price p {
+    color:#616161;
+    font-size: small;
+}
+
+.pricing .pricing-cards .pricing-card .bottom {
+    background-color: #F1F1F1;
+}
+
+.pricing .pricing-cards .pricing-card .bottom button{
+    padding: 12px 24px;
+    background-color: #000;
+    color: #fff;
+    font-size: 15px;
+}
+
+.pricing .pricing-cards .pricing-card .red {
+    background-color: #F44336;
+}
+
+
+/* 8 - Contact */
+
+.contact {
+    padding-top: 130px;
+    background-color: #F1F1F1;
+}
+
+.contact .con-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 30px;
+    margin-bottom: 30px;
+}
+
+.contact .con-details i {
+    margin-right: 18px;
+}
+
+/* text fields  */
+.contact .fields form {
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+    margin: 50px auto 0px;
+}
+
+.contact .fields form input {
+    padding: 8px;
+    font-size: 16px;
+    margin-bottom: 12px;
 }

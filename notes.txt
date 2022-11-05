@@ -1,0 +1,11 @@
+top arow : 
+<i class="fa-solid fa-up-to-line"></i>
+
+send message
+<i class="fa-solid fa-paper-plane"></i>
+
+location
+
+call or phone 
+
+emial
