@@ -489,15 +489,19 @@ footer {
 }
 
 footer .back-top {
-    background-color: #fff;
-    color: #000;
     padding: 8px 16px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    width: 140px;
+    background-color: #fff;
     margin-bottom: 24px;
+
+}
+
+footer .back-top a {
+    color: #000;
+    text-decoration: none;
+}
+
+footer .back-top a i {
+    margin-right: 5px;
 }
 
 footer .footer-icons {
